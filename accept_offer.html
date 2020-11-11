@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="accept_offer.css">
+</head>
+<body>
+
+    <h2 class="heading">ACCEPT OFFERS</h2>
+    <br><br><br><br>
+
+    <table>
+        <tr>
+            <th>Account Name</th>
+            <th>Item</th>
+            <th>Offer Made</th>
+            <th>Action</th>
+            <th>Status</th>
+        </tr>
+    </table>
+    <br>
+
+    <table style="background-color:white;">
+        <tr>
+            <th class="th2">Account Name</th>
+            <th class="th2">Item</th>
+            <th class="th2">Offer Made</th>
+            <th class="th2">Action</th>
+            <th class="th2">Status</th>
+
+        </tr>
+        <tr>
+            <td>Ajay Gill</td>
+            <td>Soil</td>
+            <td>0.25 ETH</td>
+            <td><button id="button" class="Modal_button">OFFER</button></td>
+            <td>pending..</td>
+
+        </tr>
+        <tr>
+            <td>Karter Moore </td>
+            <td>Laptop </td>
+            <td>0.25 ETH </td>
+            <td><button id="button2" class="Modal_button">OFFER</button></td>
+            <td>pending.. </td>
+        </tr>
+
+
+        <tr>
+            <td>Tyla Beem </td>
+            <td>Chair </td>
+            <td> 0.13 ETH</td>
+            <td><button id="button3" class="Modal_button">OFFER</button> </td>
+            <td>pending..</td>
+        </tr>
+
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+
+        <div id="theModal" class="modal">
+
+
+            <div class="inside-modal">
+
+                <span class="close">&times;</span>
+
+                <h2 style="text-align:center">Please Choose an Option</h2> <br>
+
+                <button onclick="document.location=''" class="Acceptbutton">Accept Offer</button>
+                <br> <br>
+                <button onclick="document.location=''" class="Declinebutton">Reject Offer</button><br><br>
+                <form>
+                    <label> Upload Numeric Code: </label>
+                    <input class="uploadNumber" type="text" id="numeric_code"> <br>
+                    <input class="uploadNumber" type="submit">
+                </form>
+
+            </div>
+
+        </div>
+
+        <script src="accept_offer.js"> </script>
+       
+    </table>
+</body>
+</html>
