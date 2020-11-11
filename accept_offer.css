@@ -2,7 +2,29 @@
 body {
     background-image: url("blockchain.jpg");
 }
+ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    background-color:white;
+    opacity: 0.8;
+}
+li {
+    float: left;
+}
 
+    li a {
+        display: block;
+        color: #50A377;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #111;
+        }
 .Modal_button {
     background-color: #50A377;
     border: solid;
